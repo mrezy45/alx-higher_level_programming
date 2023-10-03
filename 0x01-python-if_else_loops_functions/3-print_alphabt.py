@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    if chr(i) == 'q' or chr(i) == 'e':
-        continue
-    print(chr(i).format(i),end='')
+for alphabet in range(97, 123):
+    if chr(alphabet) != 'q' and chr(alphabet) != 'e':
+        print("{}".format(chr(alphabet)), end="")
